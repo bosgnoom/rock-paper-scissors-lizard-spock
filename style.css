@@ -1,0 +1,45 @@
+/* Fonts importeren */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 2em;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h1,
+h2,
+p,
+div {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: font-size 0.5s;
+}
+
+div {
+  display: flex;
+  height: 8em;
+  align-items: center;
+}
+
+.keuze {
+  justify-content: center;
+  font-size: 6em;
+  transition: font-size 0.5s;
+}
+
+span.keuze:hover {
+  font-size: 7em;
+}
+
+.gewonnen {
+  font-weight: bold;
+  color: green;
+  transition: font-size 2s;
+}
